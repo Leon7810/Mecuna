@@ -1044,3 +1044,10 @@ img {
   -webkit-user-select: none !important;
   user-select: none !important;
 }
+
+@media only screen and (max-width: 767px) {
+  .comedy {
+    visibility: hidden;
+    display: none;
+  }
+}
